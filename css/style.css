@@ -1,6 +1,19 @@
-
-
+body {
+  background-color: "Ivory";
+  color: gray;
+}
 h1 {
   font-size: 20px;
   color: yellow;
+}
+p {
+  background-color: "Lavender";
+  color: dark-blue;
+  font-size: 16px;
+}
+div {
+  border: 2px;
+  border-style: dotted;
+  height: 200px;
+  width: 200px;
 }
