@@ -1,7 +1,5 @@
-body {
+
   background-color: "Ivory", #FFFFF0;
-  font-color: "Gray";
-}
 
 h1 {
   font-size: 20px;
@@ -13,7 +11,7 @@ p {
   font-size: 16px;
 }
 
-div {
+.div {
   border: 2px;
   border-style: dotted;
   height: 200px;
