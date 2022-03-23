@@ -1,5 +1,7 @@
-
+body {
   background-color: "Ivory", #FFFFF0;
+  color: grey;
+}
 
 h1 {
   font-size: 20px;
@@ -7,7 +9,7 @@ h1 {
 
 p {
   background-color: "Lavender", #E6E6FA;
-  color: dark-blue;
+  color: darkblue;
   font-size: 16px;
 }
 
