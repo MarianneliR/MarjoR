@@ -1,0 +1,29 @@
+body {
+  background-color: #FFFFF0;
+  color: gray;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  background-color: #E6E6FA;
+  color: darkblue;
+  font-size: 16px;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.box {
+  border: 2px;
+  border-style: dotted;
+  height: 200px;
+  width: 200px;
+}
