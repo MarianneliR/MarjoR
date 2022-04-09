@@ -16,6 +16,9 @@ h4 {
   font-size:16px;
   border: dotted 1px;
 }
+img {
+  height: auto;
+}
 p {
   background-color: #F0FFC2;
   border-radius: 20px;
