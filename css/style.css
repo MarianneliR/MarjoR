@@ -1,18 +1,31 @@
+a {
+  background-color: pink;
+  border-radius: 30%;
+}
+
 body {
-  background-color: #FFFFF0;
-  color: gray;
+  background-color: #FFE4C0;
+  margin: 50px;
 }
 
 h1 {
-  font-size: 20px;
+  border-bottom: solid 2px;
+  font-size: 22px;
 }
-
+h4 {
+  font-size:16px;
+  border: dotted 1px;
+}
 p {
-  background-color: #E6E6FA;
+  background-color: #F0FFC2;
+  border-radius: 20px;
   color: darkblue;
-  font-size: 16px;
+  font-size: 18px;
+  padding: 20px;
 }
-
+progress {
+  margin-left: 20px;
+}
 ol {
   list-style-type: lower-alpha;
 }
@@ -22,8 +35,16 @@ ul {
 }
 
 .box {
+  background-color: #D8D2CB;
   border: 2px;
   border-style: dotted;
   height: 200px;
   width: 200px;
+
+}
+.crochet {
+  background-color: #FFBBBB;
+  border-radius: 20px;
+  padding: 20px;
+  width: 500px;
 }
