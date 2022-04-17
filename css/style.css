@@ -1,34 +1,76 @@
 a {
   background-color: pink;
-  border-radius: 30%;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px;
+}
+
+article {
+  background-color: #F190B7;
+  padding: 5px;
+}
+
+aside {
+  background-color: #8479E1;
+  padding: 20px;
 }
 
 body {
-  background-color: #FFE4C0;
+  background-color: #D3DEDC;
+  font-size: 18px;
   margin: 50px;
+}
+
+figure {
+  background-color: #333C83;
+  padding: 20px;
+}
+
+footer {
+  background-color: teal;
+  height: 100px;
 }
 
 h1 {
   border-bottom: solid 2px;
-  font-size: 22px;
+  font-size: 26px;
 }
+
 h4 {
-  font-size:16px;
-  border: dotted 1px;
+  font-size: 20px;
+  border: dotted 2px;
 }
+
+header {
+  color: #370665;
+}
+
 img {
   height: auto;
 }
-p {
-  background-color: #F0FFC2;
-  border-radius: 20px;
+
+nav {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+section {
+  background-color: #FBD6D2;
   color: darkblue;
   font-size: 18px;
   padding: 20px;
 }
+
+p {
+  font-size: 18px;
+  padding: 10px;
+}
+
 progress {
   margin-left: 20px;
 }
+
 ol {
   list-style-type: lower-alpha;
 }
@@ -37,17 +79,30 @@ ul {
   list-style-type: square;
 }
 
+
 .box {
   background-color: #D8D2CB;
   border: 2px;
   border-style: dotted;
   height: 200px;
   width: 200px;
-
 }
+
 .crochet {
   background-color: #FFBBBB;
-  border-radius: 20px;
+
   padding: 20px;
   width: 500px;
+}
+
+.house {
+  height: 150px;
+}
+
+.pic {
+  height: 150px;
+}
+.projects {
+  background-color: #8479E1;
+  padding: 20px;
 }
