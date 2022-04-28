@@ -2,42 +2,79 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <link rel="stylesheet" href="css/style.css">
   <meta charset="utf-8">
-  <title>
-    My portfolio (assignment 4B)
-  </title>
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <h1>My Portfolio</h1>
-  </header>
+  <container class="container">
+    <header>
+      <h1>My Portfolio</h1>
+      <hr>
+    </header>
 
-  <a href="index.html">Home</a>
-  <div>
-    <p class="projects">
-      About projects and interests
+    <nav>
+      <a href="index.html">My page</a>
+    </nav>
+    <aside>
+      <figure>
+        <img class="lapaset" src="lapaset.jpg" alt="my Totoro-mittens">
+        <figcaption>
+          <p>
+            Here's a picture of mittens i've knitted.
+          </p>
+        </figcaption>
+      </figure>
+      <div class="crochet">
+        <img id="pic" src="picture.jpg" alt="crocheted squares">
+        <p>
+          Here's some crocheted squares i've made. They were for babyblanket to my friends newborn.
+        </p>
+      </div>
+    </aside>
+    <section>
+      <p>
+        About projects and interests
+        <hr>
+      </p>
       <br>
-      I don't have that much experience of coding or making web pages, still beginner. Just this and some other course i've been taking to learn.<br>
-      But here's something i'd like to try to build in the future;
-      actual working web page for shop or band etc.,
-      countdown / alarm clock etc.,
-      somekind of game, maybe something like Rock, paper, scissors, text adventure or word / number guessing game, quiz.. i don't know yet.<br>
-      My other interests and hobbies are knitting, crocheting, reading and videogames.
-    </p>
-  </div>
-  <div class="crochet">
-    <img class="pic" src="images/picture.jpg" alt="crocheted squares">
-    Here's some crocheted squares i've made. They were for babyblanket to my friends newborn.
-  </div>
-  <figure>
-    <img class="house" src="images/house.png" alt="Drawing of house">
+      I don't have that much experience of coding or making web pages, still beginner. Just this and one other course i've been taking to learn.<br>
+      But here's something i'd like to try to build/code in the future;
+      <article>
+        <ol>
+          <li>
+            Actual working web page for shop or band etc.
+          </li>
+          <li>
+            countdown / alarm clock etc.
+          </li>
+          <li>
+            somekind of game, maybe something like Rock, paper, scissors, text adventure or word / number guessing game, quiz.. i don't know yet.
+          </li>
+      </article>
+      </ol>
+      <article>
+        My other interests and hobbies are knitting, crocheting, reading, baking and videogames.
+      </article>
 
-    <figcaption>
-      Here's a drawing of a house.
-    </figcaption>
-  </figure>
-  <progress value="20" max="100">20</progress> Progress towards learning new web development things
+      <p>My skills</p>
+      <hr>
+      <div class="progress">
+        <progress value="6" max="10">20</progress> Office programs (Word, Excel) <br>
+        <progress value="3" max="10">20</progress> Html + css <br>
+        <progress value="1" max="10">20</progress> Python <br>
+        <progress value="6" max="10">20</progress> English <br>
+      </div>
+    </section>
+    <footer id="contact">
+      <p>If you're interested in working with me, contact me:</p>
+      <address>
+        <a href="mailto:mzep83@gmail.com">e-mail</a><a href="">phone</a>
+      </address>
+
+    </footer>
+  </container>
 </body>
+
 </html>
